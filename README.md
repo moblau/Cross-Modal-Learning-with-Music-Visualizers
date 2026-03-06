@@ -3,6 +3,8 @@
 **Morris Blaustein** — Department of Statistics, Purdue University
 *Statistical Machine Learning Project*
 
+▶ [Watch the visualizer demo on YouTube](https://youtu.be/Dc1UJKIGamc)
+
 ---
 
 Music visualizers create immersive experiences by exploiting correlations between sound and visual structure. This project applies cross-modal learning to map audio features to compact visual descriptors derived from video frames, enabling a real-time audio-driven visualizer that generates correlated visuals via TouchDesigner.
