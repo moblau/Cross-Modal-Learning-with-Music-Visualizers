@@ -115,37 +115,6 @@ Larger leaf sizes reduce overfitting in the high-dimensional feature space.
 
 ![RF min_samples_leaf](fps_sweep_results/rf_tune_leaf_fps8.png)
 
-#### Random Forest — Max Features per Split
-
-Restricting features per split (`sqrt`) improves generalization by decorrelating trees.
-
-![RF max_features](fps_sweep_results/rf_tune_max_features_fps8.png)
-
----
-
-#### Gradient Boosting — Learning Rate
-
-Lower learning rates yield more stable generalization; high rates cause rapid performance degradation.
-
-![Boost learning rate](fps_sweep_results/boost_tune_learning_rate_fps8.png)
-
-#### Gradient Boosting — Max Tree Depth
-
-Moderate depths (4–5) perform best; deeper trees offer no benefit and reduce generalization.
-
-![Boost max depth](fps_sweep_results/boost_tune_max_depth_fps8.png)
-
-#### Gradient Boosting — Max Leaf Nodes
-
-Performance saturates quickly, suggesting simple tree structures are sufficient.
-
-![Boost max leaf nodes](fps_sweep_results/boost_tune_max_leaf_nodes_fps8.png)
-
-#### Gradient Boosting — ℓ₂ Regularization
-
-Performance is relatively insensitive to ℓ₂ regularization within the tested range.
-
-![Boost L2 regularization](fps_sweep_results/boost_tune_l2_regularization_fps8.png)
 
 ---
 
